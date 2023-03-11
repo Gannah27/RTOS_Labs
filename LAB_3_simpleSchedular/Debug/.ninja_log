@@ -1,0 +1,87 @@
+# ninja log v5
+609	1023	6995562051100948	D:/0.gam3a/0.semester 8/5-RTOS/labs/New folder/RTOS-college-progress/Debug/Obj/Systic_timer.o	c66c36dc3ec6a1ba
+4	2674	6995681055920153	D:/0.gam3a/0.semester 8/5-RTOS/labs/New folder/RTOS-college-progress/Debug/Obj/main.o	882510ae2dddfb32
+573	1062	6995562051490384	D:/0.gam3a/0.semester 8/5-RTOS/labs/New folder/RTOS-college-progress/Debug/Obj/startup_ewarm.o	24d4f38eb77b8e00
+387	980	6995562049928014	D:/0.gam3a/0.semester 8/5-RTOS/labs/New folder/RTOS-college-progress/Debug/Obj/DIO.o	b9099f9fb812cfdd
+2775	4205	6995681073168532	D:/0.gam3a/0.semester 8/5-RTOS/labs/New folder/RTOS-college-progress/Debug/Exe/project.out	de60b3197c398a69
+6	1140	6995589119336659	D:/0.gam3a/0.semester 8/5-RTOS/labs/New folder/RTOS-college-progress/Debug/Obj/Timer0.o	84e093f1b652ede3
+2	255	6995697557361522	D:/0.gam3a/0.semester 8/5-RTOS/labs/New folder/RTOS-college-progress/Debug/Obj/main.o	882510ae2dddfb32
+269	1218	6995697566830239	D:/0.gam3a/0.semester 8/5-RTOS/labs/New folder/RTOS-college-progress/Debug/Exe/project.out	de60b3197c398a69
+2	1285	6995701322737907	D:/0.gam3a/0.semester 8/5-RTOS/labs/New folder/RTOS-college-progress/Debug/Obj/main.o	882510ae2dddfb32
+1302	2041	6995701330383642	D:/0.gam3a/0.semester 8/5-RTOS/labs/New folder/RTOS-college-progress/Debug/Exe/project.out	de60b3197c398a69
+2	498	6995701588058331	D:/0.gam3a/0.semester 8/5-RTOS/labs/New folder/RTOS-college-progress/Debug/Obj/main.o	882510ae2dddfb32
+510	675	6995701589729232	D:/0.gam3a/0.semester 8/5-RTOS/labs/New folder/RTOS-college-progress/Debug/Exe/project.out	de60b3197c398a69
+2	265	6995702253244945	D:/0.gam3a/0.semester 8/5-RTOS/labs/New folder/RTOS-college-progress/Debug/Obj/main.o	882510ae2dddfb32
+279	573	6995702256349118	D:/0.gam3a/0.semester 8/5-RTOS/labs/New folder/RTOS-college-progress/Debug/Exe/project.out	de60b3197c398a69
+2	813	6995704389355411	D:/0.gam3a/0.semester 8/5-RTOS/labs/New folder/RTOS-college-progress/Debug/Obj/main.o	882510ae2dddfb32
+846	1002	6995704391355121	D:/0.gam3a/0.semester 8/5-RTOS/labs/New folder/RTOS-college-progress/Debug/Exe/project.out	de60b3197c398a69
+3	786	6995713218517517	D:/0.gam3a/0.semester 8/5-RTOS/labs/New folder/RTOS-college-progress/Debug/Obj/main.o	882510ae2dddfb32
+800	1157	6995713222452351	D:/0.gam3a/0.semester 8/5-RTOS/labs/New folder/RTOS-college-progress/Debug/Exe/project.out	de60b3197c398a69
+2	3005	6995717062189228	D:/0.gam3a/0.semester 8/5-RTOS/labs/New folder/RTOS-college-progress/Debug/Obj/main.o	882510ae2dddfb32
+3018	3413	6995717066327494	D:/0.gam3a/0.semester 8/5-RTOS/labs/New folder/RTOS-college-progress/Debug/Exe/project.out	de60b3197c398a69
+4	2490	6995813558117620	D:/0.gam3a/0.semester 8/5-RTOS/labs/New folder/RTOS-college-progress/Debug/Obj/main.o	882510ae2dddfb32
+2517	4076	6995813573237970	D:/0.gam3a/0.semester 8/5-RTOS/labs/New folder/RTOS-college-progress/Debug/Exe/project.out	de60b3197c398a69
+6	918	6995816281673716	D:/0.gam3a/0.semester 8/5-RTOS/labs/New folder/RTOS-college-progress/Debug/Obj/main.o	882510ae2dddfb32
+950	1240	6995816285077295	D:/0.gam3a/0.semester 8/5-RTOS/labs/New folder/RTOS-college-progress/Debug/Exe/project.out	de60b3197c398a69
+6	960	6995817629457866	D:/0.gam3a/0.semester 8/5-RTOS/labs/New folder/RTOS-college-progress/Debug/Obj/main.o	882510ae2dddfb32
+985	1246	6995817632336234	D:/0.gam3a/0.semester 8/5-RTOS/labs/New folder/RTOS-college-progress/Debug/Exe/project.out	de60b3197c398a69
+6	2173	6995822080565663	D:/0.gam3a/0.semester 8/5-RTOS/labs/New folder/RTOS-college-progress/Debug/Obj/main.o	882510ae2dddfb32
+2227	2708	6995822085573755	D:/0.gam3a/0.semester 8/5-RTOS/labs/New folder/RTOS-college-progress/Debug/Exe/project.out	de60b3197c398a69
+5	1308	6995827640978748	D:/0.gam3a/0.semester 8/5-RTOS/labs/New folder/RTOS-college-progress/Debug/Obj/Systic_timer.o	c66c36dc3ec6a1ba
+1320	1983	6995827647795142	D:/0.gam3a/0.semester 8/5-RTOS/labs/New folder/RTOS-college-progress/Debug/Exe/project.out	de60b3197c398a69
+2	472	6995829164497000	D:/0.gam3a/0.semester 8/5-RTOS/labs/New folder/RTOS-college-progress/Debug/Obj/main.o	882510ae2dddfb32
+486	734	6995829167136337	D:/0.gam3a/0.semester 8/5-RTOS/labs/New folder/RTOS-college-progress/Debug/Exe/project.out	de60b3197c398a69
+112	1595	6996074527141941	D:/0.gam3a/0.semester 8/5-RTOS/labs/New folder/RTOS-college-progress/Debug/Obj/main.o	882510ae2dddfb32
+1607	2304	6996074534237186	D:/0.gam3a/0.semester 8/5-RTOS/labs/New folder/RTOS-college-progress/Debug/Exe/project.out	de60b3197c398a69
+3	942	6996076262303376	D:/0.gam3a/0.semester 8/5-RTOS/labs/New folder/RTOS-college-progress/Debug/Obj/main.o	882510ae2dddfb32
+959	1307	6996076265938358	D:/0.gam3a/0.semester 8/5-RTOS/labs/New folder/RTOS-college-progress/Debug/Exe/project.out	de60b3197c398a69
+2	513	6996077463790224	D:/0.gam3a/0.semester 8/5-RTOS/labs/New folder/RTOS-college-progress/Debug/Obj/main.o	882510ae2dddfb32
+529	680	6996077465062568	D:/0.gam3a/0.semester 8/5-RTOS/labs/New folder/RTOS-college-progress/Debug/Exe/project.out	de60b3197c398a69
+391	2847	6997060352987123	D:/0.gam3a/0.semester 8/5-RTOS/labs/New folder/RTOS-college-progress/Debug/Obj/Systic_timer.o	c66c36dc3ec6a1ba
+80	1554	7002646025114881	D:/IARpOJ/RTOS-college-progress-main/Debug/Obj/Timer0.o	ddeef0b8f406a9e9
+1165	1581	7002646025335703	D:/IARpOJ/RTOS-college-progress-main/Debug/Obj/startup_ewarm.o	e917e9b5a22e9699
+1280	1636	7002646026000635	D:/IARpOJ/RTOS-college-progress-main/Debug/Obj/Systic_timer.o	f24300e499c100ac
+1397	1826	7002646027679617	D:/IARpOJ/RTOS-college-progress-main/Debug/Obj/DIO.o	5b5474c08af6b632
+4	341	7002646425052958	D:/IARpOJ/RTOS-college-progress-main/Debug/Obj/functions.o	588675611816f7f7
+10	223	7002651462650310	D:/IARpOJ/RTOS-college-progress-main/Debug/Obj/schedular.o	1fb9d8910b53dc67
+3	515	7002655058970494	D:/IARpOJ/RTOS-college-progress-main/Debug/Obj/main.o	dd6351c298bfd7a
+4	615	7002656702528665	D:/IARpOJ/RTOS-college-progress-main/Debug/Obj/main.o	dd6351c298bfd7a
+3	304	7002657432501947	D:/IARpOJ/RTOS-college-progress-main/Debug/Obj/main.o	dd6351c298bfd7a
+3	371	7002658103158133	D:/IARpOJ/RTOS-college-progress-main/Debug/Obj/functions.o	588675611816f7f7
+397	578	7002658105302027	D:/IARpOJ/RTOS-college-progress-main/Debug/Exe/project.out	8ac9547fd5349cbe
+5	446	7002664125460007	D:/IARpOJ/RTOS-college-progress-main/Debug/Obj/main.o	dd6351c298bfd7a
+487	736	7002664128465820	D:/IARpOJ/RTOS-college-progress-main/Debug/Exe/project.out	8ac9547fd5349cbe
+3	264	7002670441390020	D:/IARpOJ/RTOS-college-progress-main/Debug/Obj/schedular.o	1fb9d8910b53dc67
+15	392	7002670442587685	D:/IARpOJ/RTOS-college-progress-main/Debug/Obj/Systic_timer.o	f24300e499c100ac
+406	501	7002670443790011	D:/IARpOJ/RTOS-college-progress-main/Debug/Exe/project.out	8ac9547fd5349cbe
+3	151	7002673165866492	D:/IARpOJ/RTOS-college-progress-main/Debug/Obj/schedular.o	f9462a994229a903
+28	316	7002673167362746	D:/IARpOJ/RTOS-college-progress-main/Debug/Obj/DIO.o	b9a362fca0d273e8
+159	355	7002673167838074	D:/IARpOJ/RTOS-college-progress-main/Debug/Obj/Timer0.o	5f8ae1da898b43d
+10	371	7002673167776387	D:/IARpOJ/RTOS-college-progress-main/Debug/Obj/main.o	a72c3e50b4aa4686
+20	405	7002673168028383	D:/IARpOJ/RTOS-college-progress-main/Debug/Obj/functions.o	a9794a01541bf8de
+324	480	7002673169193422	D:/IARpOJ/RTOS-college-progress-main/Debug/Obj/startup_ewarm.o	6c0f4d5a846534b7
+363	572	7002673169970616	D:/IARpOJ/RTOS-college-progress-main/Debug/Obj/Systic_timer.o	58ffb52305c8fe7a
+24	372	7002676455950536	D:/IARpOJ/RTOS-college-progress-main/Debug/Obj/schedular.o	1fb9d8910b53dc67
+4	410	7002676456157767	D:/IARpOJ/RTOS-college-progress-main/Debug/Obj/DIO.o	5b5474c08af6b632
+16	501	7002676457138000	D:/IARpOJ/RTOS-college-progress-main/Debug/Obj/main.o	dd6351c298bfd7a
+380	539	7002676457324888	D:/IARpOJ/RTOS-college-progress-main/Debug/Obj/startup_ewarm.o	e917e9b5a22e9699
+32	647	7002676458616001	D:/IARpOJ/RTOS-college-progress-main/Debug/Obj/functions.o	588675611816f7f7
+419	656	7002676458723540	D:/IARpOJ/RTOS-college-progress-main/Debug/Obj/Systic_timer.o	f24300e499c100ac
+510	711	7002676459360139	D:/IARpOJ/RTOS-college-progress-main/Debug/Obj/Timer0.o	ddeef0b8f406a9e9
+722	836	7002676460544879	D:/IARpOJ/RTOS-college-progress-main/Debug/Exe/project.out	8ac9547fd5349cbe
+15	388	7002680350727093	D:/IARpOJ/RTOS-college-progress-main/Debug/Obj/Systic_timer.o	f24300e499c100ac
+4	418	7002680351022490	D:/IARpOJ/RTOS-college-progress-main/Debug/Obj/main.o	dd6351c298bfd7a
+428	529	7002680352085312	D:/IARpOJ/RTOS-college-progress-main/Debug/Exe/project.out	8ac9547fd5349cbe
+3	279	7002681922102047	D:/IARpOJ/RTOS-college-progress-main/Debug/Obj/main.o	dd6351c298bfd7a
+13	289	7002681922162032	D:/IARpOJ/RTOS-college-progress-main/Debug/Obj/functions.o	588675611816f7f7
+311	393	7002681923351715	D:/IARpOJ/RTOS-college-progress-main/Debug/Exe/project.out	8ac9547fd5349cbe
+4	415	7002684260186604	D:/IARpOJ/RTOS-college-progress-main/Debug/Obj/functions.o	588675611816f7f7
+434	594	7002684261919163	D:/IARpOJ/RTOS-college-progress-main/Debug/Exe/project.out	8ac9547fd5349cbe
+10	298	7002687550983278	D:/IARpOJ/RTOS-college-progress-main/Debug/Obj/schedular.o	1fb9d8910b53dc67
+324	522	7002687553389382	D:/IARpOJ/RTOS-college-progress-main/Debug/Exe/project.out	8ac9547fd5349cbe
+6	498	7002691161443159	D:/IARpOJ/RTOS-college-progress-main/Debug/Obj/functions.o	588675611816f7f7
+543	847	7002691164874937	D:/IARpOJ/RTOS-college-progress-main/Debug/Exe/project.out	8ac9547fd5349cbe
+4	403	7002692961966450	D:/IARpOJ/RTOS-college-progress-main/Debug/Obj/functions.o	588675611816f7f7
+425	605	7002692964258517	D:/IARpOJ/RTOS-college-progress-main/Debug/Exe/project.out	8ac9547fd5349cbe
+8	487	7002697893002900	D:/IARpOJ/RTOS-college-progress-main/Debug/Obj/functions.o	588675611816f7f7
+510	667	7002697894806394	D:/IARpOJ/RTOS-college-progress-main/Debug/Exe/project.out	8ac9547fd5349cbe

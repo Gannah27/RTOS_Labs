@@ -1,0 +1,15 @@
+"D:\arm\bin\armPROC.dll" 
+
+"D:\arm\bin\armLMIFTDI.dll" 
+
+"D:\IARpOJ\RTOS-college-progress-main\Debug\Exe\project.out" 
+
+--plugin="D:\arm\bin\armbat.dll" 
+
+--device_macro="D:\arm/config/debugger/TexasInstruments/LM4F.dmac" 
+
+--flash_loader="D:\arm/config/flashloader/TexasInstruments/FlashLM4FxxxHxx.board" 
+
+
+
+
