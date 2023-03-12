@@ -1,0 +1,15 @@
+D:\IARpOJ\Lab2\Debug\BrowseInfo\Timer0.pbi: D:\IARpOJ\Lab2\Timer0.c \
+  D:\IARpOJ\Lab2\Timer0.h D:\arm\inc\c\stdbool.h D:\arm\inc\c\stdint.h \
+  D:\arm\inc\c\ycheck.h D:\arm\inc\c\yvals.h \
+  D:\arm\inc\c\DLib_Defaults.h D:\arm\inc\c\DLib_Config_Normal.h \
+  D:\arm\inc\c\DLib_Product.h \
+  C:\ti\TivaWare_C_Series-2.2.0.295\inc\hw_ints.h \
+  C:\ti\TivaWare_C_Series-2.2.0.295\inc\hw_memmap.h \
+  C:\ti\TivaWare_C_Series-2.2.0.295\driverlib\gpio.h \
+  C:\ti\TivaWare_C_Series-2.2.0.295\driverlib\interrupt.h \
+  C:\ti\TivaWare_C_Series-2.2.0.295\driverlib\pin_map.h \
+  C:\ti\TivaWare_C_Series-2.2.0.295\driverlib\sysctl.h \
+  C:\ti\TivaWare_C_Series-2.2.0.295\driverlib\timer.h \
+  C:\ti\TivaWare_C_Series-2.2.0.295\driverlib\uart.h \
+  C:\ti\TivaWare_C_Series-2.2.0.295\utils\uartstdio.h \
+  D:\arm\inc\c\stdarg.h

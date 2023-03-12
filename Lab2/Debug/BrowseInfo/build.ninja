@@ -1,0 +1,100 @@
+##IAR Ninja build file
+
+
+#Rules
+rule COMPILER_XCL
+  command = D$:\common\bin\XclFileGenerator.exe $xclcommand -f "$rspfile_name"
+  description = IAR_NEW_TOOL+++COMPILER_XCL+++$in+++D$:\common\bin\XclFileGenerator.exe $flags
+  rspfile = $rspfile_name
+  rspfile_content = $flags
+
+rule INDEXER
+  command = D$:\common\bin\SourceIndexer.exe $flags
+  depfile = $out.dep
+  description = IAR_NEW_TOOL+++INDEXER+++$out+++D$:\common\bin\SourceIndexer.exe $flags
+
+rule MAKEBROWSE
+  command = D$:\common\bin\makeBrowseData.exe $flags
+  description = IAR_NEW_TOOL+++MAKEBROWSE+++$out+++D$:\common\bin\makeBrowseData.exe $flags
+
+rule PDBLINK
+  command = D$:\common\bin\PbdLink.exe $flags
+  description = IAR_NEW_TOOL+++PDBLINK+++$out+++D$:\common\bin\PbdLink.exe $flags
+
+
+
+#Build steps
+build D$:\IARpOJ\Lab2\Debug\BrowseInfo\DIO.xcl : COMPILER_XCL 
+  xclcommand = -source_file D$:\IARpOJ\Lab2\DIO.c -xcl_file D$:\IARpOJ\Lab2\Debug\BrowseInfo\DIO.xcl -macro_file D$:\IARpOJ\Lab2\Debug\BrowseInfo\DIO.tmp -icc_path D$:\arm\bin\iccarm.exe
+  flags = D$:\IARpOJ\Lab2\DIO.c -D ewarmPART_TM4C123GH6PM -D TARGET_IS_TM4C123_RB1 -o D$:\IARpOJ\Lab2\Debug\Obj\ --no_cse --no_unroll --no_inline --no_code_motion --no_tbaa --no_clustering --no_scheduling --debug --endian=little --cpu=Cortex-M4 -e --fpu=VFPv4_sp --dlib_config D$:\arm\inc\c\DLib_Config_Normal.h -I C$:\ti\TivaWare_C_Series-2.2.0.295\ -Ol --predef_macros D$:\IARpOJ\Lab2\Debug\BrowseInfo\DIO.tmp
+  rspfile_name = D$:\IARpOJ\Lab2\Debug\BrowseInfo\DIO.xcl.rsp
+
+build D$:\IARpOJ\Lab2\Debug\BrowseInfo\main.xcl : COMPILER_XCL 
+  xclcommand = -source_file D$:\IARpOJ\Lab2\main.c -xcl_file D$:\IARpOJ\Lab2\Debug\BrowseInfo\main.xcl -macro_file D$:\IARpOJ\Lab2\Debug\BrowseInfo\main.tmp -icc_path D$:\arm\bin\iccarm.exe
+  flags = D$:\IARpOJ\Lab2\main.c -D ewarmPART_TM4C123GH6PM -D TARGET_IS_TM4C123_RB1 -o D$:\IARpOJ\Lab2\Debug\Obj\ --no_cse --no_unroll --no_inline --no_code_motion --no_tbaa --no_clustering --no_scheduling --debug --endian=little --cpu=Cortex-M4 -e --fpu=VFPv4_sp --dlib_config D$:\arm\inc\c\DLib_Config_Normal.h -I C$:\ti\TivaWare_C_Series-2.2.0.295\ -Ol --predef_macros D$:\IARpOJ\Lab2\Debug\BrowseInfo\main.tmp
+  rspfile_name = D$:\IARpOJ\Lab2\Debug\BrowseInfo\main.xcl.rsp
+
+build D$:\IARpOJ\Lab2\Debug\BrowseInfo\schedular.xcl : COMPILER_XCL 
+  xclcommand = -source_file D$:\IARpOJ\Lab2\schedular.c -xcl_file D$:\IARpOJ\Lab2\Debug\BrowseInfo\schedular.xcl -macro_file D$:\IARpOJ\Lab2\Debug\BrowseInfo\schedular.tmp -icc_path D$:\arm\bin\iccarm.exe
+  flags = D$:\IARpOJ\Lab2\schedular.c -D ewarmPART_TM4C123GH6PM -D TARGET_IS_TM4C123_RB1 -o D$:\IARpOJ\Lab2\Debug\Obj\ --no_cse --no_unroll --no_inline --no_code_motion --no_tbaa --no_clustering --no_scheduling --debug --endian=little --cpu=Cortex-M4 -e --fpu=VFPv4_sp --dlib_config D$:\arm\inc\c\DLib_Config_Normal.h -I C$:\ti\TivaWare_C_Series-2.2.0.295\ -Ol --predef_macros D$:\IARpOJ\Lab2\Debug\BrowseInfo\schedular.tmp
+  rspfile_name = D$:\IARpOJ\Lab2\Debug\BrowseInfo\schedular.xcl.rsp
+
+build D$:\IARpOJ\Lab2\Debug\BrowseInfo\startup_ewarm.xcl : COMPILER_XCL 
+  xclcommand = -source_file D$:\IARpOJ\Lab2\startup_ewarm.c -xcl_file D$:\IARpOJ\Lab2\Debug\BrowseInfo\startup_ewarm.xcl -macro_file D$:\IARpOJ\Lab2\Debug\BrowseInfo\startup_ewarm.tmp -icc_path D$:\arm\bin\iccarm.exe
+  flags = D$:\IARpOJ\Lab2\startup_ewarm.c -D ewarmPART_TM4C123GH6PM -D TARGET_IS_TM4C123_RB1 -o D$:\IARpOJ\Lab2\Debug\Obj\ --no_cse --no_unroll --no_inline --no_code_motion --no_tbaa --no_clustering --no_scheduling --debug --endian=little --cpu=Cortex-M4 -e --fpu=VFPv4_sp --dlib_config D$:\arm\inc\c\DLib_Config_Normal.h -I C$:\ti\TivaWare_C_Series-2.2.0.295\ -Ol --predef_macros D$:\IARpOJ\Lab2\Debug\BrowseInfo\startup_ewarm.tmp
+  rspfile_name = D$:\IARpOJ\Lab2\Debug\BrowseInfo\startup_ewarm.xcl.rsp
+
+build D$:\IARpOJ\Lab2\Debug\BrowseInfo\Systic_timer.xcl : COMPILER_XCL 
+  xclcommand = -source_file D$:\IARpOJ\Lab2\Systic_timer.c -xcl_file D$:\IARpOJ\Lab2\Debug\BrowseInfo\Systic_timer.xcl -macro_file D$:\IARpOJ\Lab2\Debug\BrowseInfo\Systic_timer.tmp -icc_path D$:\arm\bin\iccarm.exe
+  flags = D$:\IARpOJ\Lab2\Systic_timer.c -D ewarmPART_TM4C123GH6PM -D TARGET_IS_TM4C123_RB1 -o D$:\IARpOJ\Lab2\Debug\Obj\ --no_cse --no_unroll --no_inline --no_code_motion --no_tbaa --no_clustering --no_scheduling --debug --endian=little --cpu=Cortex-M4 -e --fpu=VFPv4_sp --dlib_config D$:\arm\inc\c\DLib_Config_Normal.h -I C$:\ti\TivaWare_C_Series-2.2.0.295\ -Ol --predef_macros D$:\IARpOJ\Lab2\Debug\BrowseInfo\Systic_timer.tmp
+  rspfile_name = D$:\IARpOJ\Lab2\Debug\BrowseInfo\Systic_timer.xcl.rsp
+
+build D$:\IARpOJ\Lab2\Debug\BrowseInfo\Timer0.xcl : COMPILER_XCL 
+  xclcommand = -source_file D$:\IARpOJ\Lab2\Timer0.c -xcl_file D$:\IARpOJ\Lab2\Debug\BrowseInfo\Timer0.xcl -macro_file D$:\IARpOJ\Lab2\Debug\BrowseInfo\Timer0.tmp -icc_path D$:\arm\bin\iccarm.exe
+  flags = D$:\IARpOJ\Lab2\Timer0.c -D ewarmPART_TM4C123GH6PM -D TARGET_IS_TM4C123_RB1 -o D$:\IARpOJ\Lab2\Debug\Obj\ --no_cse --no_unroll --no_inline --no_code_motion --no_tbaa --no_clustering --no_scheduling --debug --endian=little --cpu=Cortex-M4 -e --fpu=VFPv4_sp --dlib_config D$:\arm\inc\c\DLib_Config_Normal.h -I C$:\ti\TivaWare_C_Series-2.2.0.295\ -Ol --predef_macros D$:\IARpOJ\Lab2\Debug\BrowseInfo\Timer0.tmp
+  rspfile_name = D$:\IARpOJ\Lab2\Debug\BrowseInfo\Timer0.xcl.rsp
+
+build D$:\IARpOJ\Lab2\Debug\BrowseInfo\DIO.pbi : INDEXER D$:\IARpOJ\Lab2\Debug\BrowseInfo\DIO.xcl |  $
+D$:\IARpOJ\Lab2\DIO.c
+  flags = -out=D$:\IARpOJ\Lab2\Debug\BrowseInfo\DIO.pbi -f D$:\IARpOJ\Lab2\Debug\BrowseInfo\DIO.xcl
+
+build D$:\IARpOJ\Lab2\Debug\BrowseInfo\main.pbi : INDEXER D$:\IARpOJ\Lab2\Debug\BrowseInfo\main.xcl |  $
+D$:\IARpOJ\Lab2\main.c
+  flags = -out=D$:\IARpOJ\Lab2\Debug\BrowseInfo\main.pbi -f D$:\IARpOJ\Lab2\Debug\BrowseInfo\main.xcl
+
+build D$:\IARpOJ\Lab2\Debug\BrowseInfo\schedular.pbi : INDEXER D$:\IARpOJ\Lab2\Debug\BrowseInfo\schedular.xcl |  $
+D$:\IARpOJ\Lab2\schedular.c
+  flags = -out=D$:\IARpOJ\Lab2\Debug\BrowseInfo\schedular.pbi -f D$:\IARpOJ\Lab2\Debug\BrowseInfo\schedular.xcl
+
+build D$:\IARpOJ\Lab2\Debug\BrowseInfo\startup_ewarm.pbi : INDEXER D$:\IARpOJ\Lab2\Debug\BrowseInfo\startup_ewarm.xcl |  $
+D$:\IARpOJ\Lab2\startup_ewarm.c
+  flags = -out=D$:\IARpOJ\Lab2\Debug\BrowseInfo\startup_ewarm.pbi -f D$:\IARpOJ\Lab2\Debug\BrowseInfo\startup_ewarm.xcl
+
+build D$:\IARpOJ\Lab2\Debug\BrowseInfo\Systic_timer.pbi : INDEXER D$:\IARpOJ\Lab2\Debug\BrowseInfo\Systic_timer.xcl |  $
+D$:\IARpOJ\Lab2\Systic_timer.c
+  flags = -out=D$:\IARpOJ\Lab2\Debug\BrowseInfo\Systic_timer.pbi -f D$:\IARpOJ\Lab2\Debug\BrowseInfo\Systic_timer.xcl
+
+build D$:\IARpOJ\Lab2\Debug\BrowseInfo\Timer0.pbi : INDEXER D$:\IARpOJ\Lab2\Debug\BrowseInfo\Timer0.xcl |  $
+D$:\IARpOJ\Lab2\Timer0.c
+  flags = -out=D$:\IARpOJ\Lab2\Debug\BrowseInfo\Timer0.pbi -f D$:\IARpOJ\Lab2\Debug\BrowseInfo\Timer0.xcl
+
+build D$:\IARpOJ\Lab2\Debug\BrowseInfo\Lab2RTOS.pbw : MAKEBROWSE D$:\IARpOJ\Lab2\Debug\BrowseInfo\Lab2RTOS.pbd
+  flags = D$:\IARpOJ\Lab2\Debug\BrowseInfo\Lab2RTOS.pbd -output D$:\IARpOJ\Lab2\Debug\BrowseInfo\Lab2RTOS.pbw
+
+build D$:\IARpOJ\Lab2\Debug\BrowseInfo\Lab2RTOS_part0.pbi : PDBLINK D$:\IARpOJ\Lab2\Debug\BrowseInfo\DIO.pbi |  $
+D$:\IARpOJ\Lab2\Debug\BrowseInfo\main.pbi
+  flags = -M D$:\IARpOJ\Lab2\Debug\BrowseInfo\Lab2RTOS_part0.pbi D$:\IARpOJ\Lab2\Debug\BrowseInfo\DIO.pbi D$:\IARpOJ\Lab2\Debug\BrowseInfo\main.pbi
+
+build D$:\IARpOJ\Lab2\Debug\BrowseInfo\Lab2RTOS_part1.pbi : PDBLINK D$:\IARpOJ\Lab2\Debug\BrowseInfo\schedular.pbi |  $
+D$:\IARpOJ\Lab2\Debug\BrowseInfo\startup_ewarm.pbi
+  flags = -M D$:\IARpOJ\Lab2\Debug\BrowseInfo\Lab2RTOS_part1.pbi D$:\IARpOJ\Lab2\Debug\BrowseInfo\schedular.pbi D$:\IARpOJ\Lab2\Debug\BrowseInfo\startup_ewarm.pbi
+
+build D$:\IARpOJ\Lab2\Debug\BrowseInfo\Lab2RTOS_part2.pbi : PDBLINK D$:\IARpOJ\Lab2\Debug\BrowseInfo\Systic_timer.pbi |  $
+D$:\IARpOJ\Lab2\Debug\BrowseInfo\Timer0.pbi
+  flags = -M D$:\IARpOJ\Lab2\Debug\BrowseInfo\Lab2RTOS_part2.pbi D$:\IARpOJ\Lab2\Debug\BrowseInfo\Systic_timer.pbi D$:\IARpOJ\Lab2\Debug\BrowseInfo\Timer0.pbi
+
+build D$:\IARpOJ\Lab2\Debug\BrowseInfo\Lab2RTOS.pbd : PDBLINK D$:\IARpOJ\Lab2\Debug\BrowseInfo\Lab2RTOS_part0.pbi |  $
+D$:\IARpOJ\Lab2\Debug\BrowseInfo\Lab2RTOS_part1.pbi $
+D$:\IARpOJ\Lab2\Debug\BrowseInfo\Lab2RTOS_part2.pbi
+  flags = -M D$:\IARpOJ\Lab2\Debug\BrowseInfo\Lab2RTOS.pbd D$:\IARpOJ\Lab2\Debug\BrowseInfo\Lab2RTOS_part0.pbi D$:\IARpOJ\Lab2\Debug\BrowseInfo\Lab2RTOS_part1.pbi D$:\IARpOJ\Lab2\Debug\BrowseInfo\Lab2RTOS_part2.pbi
+
